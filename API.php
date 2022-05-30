@@ -14,6 +14,7 @@ class API extends CI_Controller
         );
         $this->cart->update($data);
         echo 'Berhasil Dihapus';
+        echo 'haloo'
     }
 
     public function tampilProvinsi()
