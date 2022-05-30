@@ -77,6 +77,7 @@ class API extends CI_Controller
     public function hitungOngkir($id_kabkota)
     {
         $curl = curl_init();
+        $curl = curl_init();
 
         curl_setopt_array($curl, array(
         CURLOPT_URL => "https://api.rajaongkir.com/starter/cost",
